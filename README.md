@@ -1,50 +1,58 @@
-ChatBot Web Application
-Introduction
-This project is a simple chat application powered by Node.js and Socket.IO, designed to provide live chat functionality. Users can send messages, and the application, leveraging the Wolfram Alpha API, attempts to provide intelligent responses. The front end is built with HTML, CSS (Bootstrap for styling), and JavaScript, ensuring a responsive and interactive user interface.
+# WiseChatBot
 
-Features
-Real-time messaging
-Intelligent responses from Wolfram Alpha API
-Responsive design
-Prerequisites
-Before you begin, ensure you have met the following requirements:
+## Introduction
 
-Node.js and npm installed on your system
-A Wolfram Alpha API key (optional for extended functionality)
-Setup
-Clone this repository to your local machine using:
+WiseChatBot is a simple, yet powerful chat application built on Node.js and leveraging Socket.IO for real-time communication. It features an intuitive user interface and employs the Wolfram Alpha API for generating intelligent responses. This application demonstrates the capabilities of modern web technologies in creating interactive and responsive chat applications.
 
-bash
-Copy code
-git clone https://github.com/yourusername/your-repo-name.git
-Navigate into the project directory:
+## Features
 
-bash
-Copy code
-cd your-repo-name
-Install the necessary dependencies:
+- **Real-Time Messaging**: Engage in live chat sessions without refreshing the page.
+- **Intelligent Responses**: Utilizes Wolfram Alpha API to provide smart answers to queries.
+- **Responsive Design**: Ensures a seamless experience across different devices and screen sizes.
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+- Node.js and npm (Node Package Manager)
+- An active internet connection for API calls
+
+## Installation
+
+To get the project up and running on your local machine, follow these steps:
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/CodingIndeed/WiseChatBot.git
+   cd WiseChatBot
+Install Dependencies
 
 bash
 Copy code
 npm install
-Create a .env file in the root directory of the project and add your Wolfram Alpha App ID as follows:
+Setup Environment Variables
+
+Create a .env file in the project root and add your Wolfram Alpha API key:
 
 plaintext
 Copy code
-WOLFRAM_APP_ID=your_app_id_here
-If you don't have a Wolfram Alpha App ID, the application will still run but with limited functionality.
+WOLFRAM_APP_ID=your_api_key_here
+Replace your_api_key_here with your actual Wolfram Alpha API key.
 
 Running the Application
-To start the server, run:
+Start the Server
 
 bash
 Copy code
 npm start
-By default, the server will run on http://localhost:3000. Open your browser and navigate to this URL to start using the ChatBot web application.
+This command will launch the server. By default, it listens on port 3000.
+
+Access the Application
+
+Open a web browser and navigate to http://localhost:3000 to start using the application.
 
 Contributing
-Contributions to this project are welcome. Please ensure to update tests as appropriate.
+Contributions are welcome! If you have suggestions or want to improve the application, feel free to fork the repository, make changes, and submit a pull request.
 
 License
-This project is licensed under the ISC License. See the LICENSE file for details.
-
+This project is licensed under the ISC License - see the LICENSE.md file for details.
