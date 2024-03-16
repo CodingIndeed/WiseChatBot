@@ -52,8 +52,3 @@ To get the project up and running on your local machine, follow these steps:
    2. Access the Application
    Open a web browser and navigate to http://localhost:3000 to start using the application.
 
-## Contributing
-   Contributions are welcome! If you have suggestions or want to improve the application, feel free to fork the repository, make changes, and submit a pull request.
-
-## License
-   This project is licensed under the ISC License - see the LICENSE.md file for details.
