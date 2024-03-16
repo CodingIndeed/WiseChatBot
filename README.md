@@ -20,39 +20,40 @@ Before you begin, ensure you have the following installed:
 
 To get the project up and running on your local machine, follow these steps:
 
-1. **Clone the Repository**
+   1. **Clone the Repository**
 
    ```bash
    git clone https://github.com/CodingIndeed/WiseChatBot.git
    cd WiseChatBot
-Install Dependencies
+   ```
+   1. Install Dependencies
 
-bash
-Copy code
-npm install
-Setup Environment Variables
+   ```bash
+   npm install
+   ```
+   2. Setup Environment Variables
 
-Create a .env file in the project root and add your Wolfram Alpha API key:
+   Create a .env file in the project root and add your Wolfram Alpha API key:
 
-plaintext
-Copy code
-WOLFRAM_APP_ID=your_api_key_here
-Replace your_api_key_here with your actual Wolfram Alpha API key.
+   ```bash
+   WOLFRAM_APP_ID=your_api_key_here
+   ```
+   Replace your_api_key_here with your actual Wolfram Alpha API key.
 
-Running the Application
-Start the Server
+## Running the Application
 
-bash
-Copy code
-npm start
-This command will launch the server. By default, it listens on port 3000.
+   1. Start the Server
 
-Access the Application
+   ```
+   npm start
+   ```
+   This command will launch the server. By default, it listens on port 3000.
 
-Open a web browser and navigate to http://localhost:3000 to start using the application.
+   2. Access the Application
+   Open a web browser and navigate to http://localhost:3000 to start using the application.
 
-Contributing
-Contributions are welcome! If you have suggestions or want to improve the application, feel free to fork the repository, make changes, and submit a pull request.
+## Contributing
+   Contributions are welcome! If you have suggestions or want to improve the application, feel free to fork the repository, make changes, and submit a pull request.
 
-License
-This project is licensed under the ISC License - see the LICENSE.md file for details.
+## License
+   This project is licensed under the ISC License - see the LICENSE.md file for details.
